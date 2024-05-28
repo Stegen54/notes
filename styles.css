@@ -1,0 +1,110 @@
+/* Base styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+/* Container for the app */
+.container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px;
+}
+
+/* Title styling */
+h1 {
+    margin-top: 0;
+    font-size: 24px;
+    text-align: center;
+}
+
+/* Textarea styling */
+#note-input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/* Button styling */
+#add-update-btn {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#add-update-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Notes container styling */
+#notes-container {
+    margin-top: 20px;
+}
+
+/* Note styling */
+.note {
+    background: #e9ecef;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 4px;
+    border-left: 5px solid #007BFF;
+    position: relative;
+    word-wrap: break-word;
+    font-size: 16px;
+}
+
+/* Note action buttons styling */
+.note-buttons {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.note-buttons button {
+    background: none;
+    border: none;
+    color: #007BFF;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 5px;
+    padding: 0;
+}
+
+.note-buttons button:hover {
+    color: #0056b3;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('./light.jpg'); /* Set the background image */
+    background-size: cover; /* Ensure the image covers the entire background */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-position: center; /* Center the image */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    box-sizing: border-box;
+}
